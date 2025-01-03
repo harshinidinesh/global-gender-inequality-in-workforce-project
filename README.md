@@ -1,6 +1,4 @@
 # Gender Inequality in the Global Worforce
-A project that examines the extent of gender inequality in the workforce across countries around the world.
-
 Introduction & Purpose
 
 Gender inequality is a significant global issue affecting economic, political, and social systems. This project explores key factors contributing to these disparities, including workforce representation, economic participation, and family leave policies, using the gender_development_database to track trends and insights and inform the public.
