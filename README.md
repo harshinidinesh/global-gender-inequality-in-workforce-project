@@ -1,5 +1,5 @@
 # Gender Inequality in the Global Worforce
-![MasterHead](https://unsplash.com/photos/male-manager-going-to-climb-a-ladder-meanwhile-female-manager-has-just-a-rope-instead-of-stairs-gender-gap-and-career-problems-concept-vector-illustration-RjWSwk42--c)
+![MasterHead](https://plus.unsplash.com/premium_photo-1711987622842-28b4caf88651?q=80&w=2918&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
 
 ** Introduction & Purpose **
 
