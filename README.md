@@ -1,5 +1,7 @@
 # Gender Inequality in the Global Worforce
-Introduction & Purpose
+![MasterHead](https://unsplash.com/photos/male-manager-going-to-climb-a-ladder-meanwhile-female-manager-has-just-a-rope-instead-of-stairs-gender-gap-and-career-problems-concept-vector-illustration-RjWSwk42--c)
+
+** Introduction & Purpose **
 
 Gender inequality is a significant global issue affecting economic, political, and social systems. This project explores key factors contributing to these disparities, including workforce representation, economic participation, and family leave policies, using the gender_development_database to track trends and insights and inform the public.
 
@@ -7,7 +9,7 @@ The SQL database focuses on gender inequality across various countries, analyzin
 
 By connecting policy, economics, and representation, this tool helps deepen our understanding of gender inequality and supports efforts to address these inequities effectively.
 
-Techniques used
+** Techniques used **
 
 Data Cleaning
 Data Loading and Merging
@@ -19,7 +21,7 @@ Database Design
 - Triggers
 - ER diagram
   
-Insights
+** Insights **
 
 Our database, gender_development_database, is used to analyze data related to gender development metrics across different countries. The country table is the central entity in this database- each county is uniquely identified by country_id and name. This table is the reference point for all the other tables, creating a one-to-many relationship. The table FamilyLeave has information about family leave policies, with leave_mothers, leave_fathers, and leave_shareable. The table PublicSectorPositions focuses on gender representation in public sector roles- and uses two timeframes (2011 and 2021)  to provide analysis overtime of public sector roles. The table GovernmentRepresentation tracks women’s participation in government positions. The table for EconomicParticipation provides information on a few economic standards: gender wage gap, female labor force participation, gender development index, and gender pay gap. Every single one of these tables has a relationship with the country table, and each table contains a foreign key, country_id, which references the primary key in the country table. This ensures that all data in the related tables are connected to specific countries. The gender_equality_report table generates reports on gender equality for specific countries, including metrics like gender_wage_gap, female_labor participation, and calculated values like leave_difference. It references the Country table through country_id and provides insights for comparing companies. Essentially, this table helps analyze gender development metrics.
 
@@ -48,16 +50,16 @@ To answer these questions, we used a series of join, group by, ordering, and agg
 
 To ensure that this procedure runs smoothly we also created two triggers that recalculates average values (i.e. average gender wage gap, average women in ministerial positions)  when a country updates its specific value (i.e. Korea’s gender wage gap, Korea’s number of women in ministerial positions). Finally, we created another procedure called ‘countriesfamilyleaveforboth’ which identifies whether a user-inputted country gives equal or unequal days in family leave for both mothers and fathers. This helps users get data and compare countries with large versus small disparities or gender inequalities. We also created multiple test cases to see if both procedures work accurately and efficiently.
 
-Code structure
+** Code structure **
 
 A database which contain procedures, tests, triggers, and queries designed to help the user access gender inequality data on various countries and answer their questions. Could be easily run through MySQL. This project also includes csv files for datasets we used, and pdf files for our comprehensive final report and presentation.
 
-Sources
+** Sources **
 
 The primary datasets used in our report were found on this website and its various charts' csv files:
 www.oecd.org/en/topics/gender-equality-and-work.html.
 
-Contributions
+** Contributions **
 
 Harshini Dinesh (4381hdinesh@gmail.com)
 Found the OECD websites where we got our initial data sources from, added data to the spreadsheet, and edited the queries to remove any errors.
