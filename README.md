@@ -55,8 +55,7 @@ A database which contain procedures, tests, triggers, and queries designed to he
 Sources
 
 The primary datasets used in our report were found on this website and its various charts' csv files:
-www.oecd.org/en/topics/gender-equality-and-work.html. Accessed 25 Nov. 2024.  
-
+www.oecd.org/en/topics/gender-equality-and-work.html.
 
 Contributions
 
